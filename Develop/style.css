@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F9FBFD;
+}
+
+h1 {
+    text-align: center;
+    color: #3B4959;
+}
+
+.box {
+    border: 1px solid #E7E9EB;
+    padding: 3%;
+    background-color: #FFFFFF;
+}
+
+h2 {
+    color: #3B4959;
+    padding-bottom: 3vh;
+    border-bottom: 2px solid #E7E9EB;
+}
+
+textarea[placeholder] {
+    text-align: center;
+    font-size: 1.3em;
+    border: 3px dotted #C0C7CF;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    padding: 3vh;
+}
+
+#password {
+    min-height: 200px;
+    width: 100%;
+}
+
+.buttons {
+    border-top: 2px solid #E7E9EB;
+}
+
+#generate, #copy {
+    background-color: #AF0808;
+    color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 1.2em;
+    margin-top: 3vh;
+    margin-left: 5%;
+    padding: 2%;
+    width: 30%;
+}
+
+#copy {
+    background-color: #C0C7CF;
+    margin-left: 25%;
+}
